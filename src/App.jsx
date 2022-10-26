@@ -1,8 +1,10 @@
+import Map from "./components/Map";
+
 function App() {
     return (
-        <div>
-            <div>Hi</div>
-        </div>
+        <>
+            <Map />
+        </>
     );
 }
 
