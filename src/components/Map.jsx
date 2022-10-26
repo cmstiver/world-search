@@ -22,7 +22,7 @@ function MapContainer() {
         const vectorLayer = new VectorLayer({
             background: "#1a2b39",
             source: new VectorSource({
-                url: "./custom.geojson",
+                url: "./custom.geo.json",
                 format: new GeoJSON(),
             }),
         });
